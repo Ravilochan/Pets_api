@@ -6,7 +6,7 @@ const dogsData = [
         ageMonths: 12,
         gender: 'Male',
         price: 800,
-        image: 'https://takehome.statledger.io/static/dog1.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog1.jpg',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const dogsData = [
         ageMonths: 9,
         gender: 'Female',
         price: 900,
-        image: 'https://takehome.statledger.io/static/dog2.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog2.jpg',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const dogsData = [
         ageMonths: 15,
         gender: 'Male',
         price: 750,
-        image: 'https://takehome.statledger.io/static/dog3.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog3.jpg',
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const dogsData = [
         ageMonths: 7,
         gender: 'Female',
         price: 600,
-        image: 'https://takehome.statledger.io/static/dog4.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog4.jpg',
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const dogsData = [
         ageMonths: 10,
         gender: 'Male',
         price: 850,
-        image: 'https://takehome.statledger.io/static/dog5.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog5.jpg',
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const dogsData = [
         ageMonths: 10,
         gender: 'Male',
         price: 800,
-        image: 'https://takehome.statledger.io/static/dog6.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog6.jpg',
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const dogsData = [
         ageMonths: 8,
         gender: 'Female',
         price: 650,
-        image: 'https://takehome.statledger.io/static/dog7.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog7.jpg',
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const dogsData = [
         ageMonths: 14,
         gender: 'Male',
         price: 950,
-        image: 'https://takehome.statledger.io/static/dog8.jpg',
+        image: 'https://takehome.statledger.io/api/images/dog8.jpg',
     },
 ];
 
@@ -81,7 +81,7 @@ const catsData = [
         ageMonths: 8,
         gender: 'Male',
         price: 600,
-        image: 'https://takehome.statledger.io/static/cat1.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat1.jpg',
     },
     {
         id: 2,
@@ -90,7 +90,7 @@ const catsData = [
         ageMonths: 12,
         gender: 'Female',
         price: 750,
-        image: 'https://takehome.statledger.io/static/cat2.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat2.jpg',
     },
     {
         id: 3,
@@ -99,7 +99,7 @@ const catsData = [
         ageMonths: 10,
         gender: 'Male',
         price: 700,
-        image: 'https://takehome.statledger.io/static/cat3.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat3.jpg',
     },
     {
         id: 4,
@@ -108,7 +108,7 @@ const catsData = [
         ageMonths: 7,
         gender: 'Female',
         price: 650,
-        image: 'https://takehome.statledger.io/static/cat4.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat4.jpg',
     },
     {
         id: 5,
@@ -117,7 +117,7 @@ const catsData = [
         ageMonths: 14,
         gender: 'Male',
         price: 800,
-        image: 'https://takehome.statledger.io/static/cat5.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat5.jpg',
     },
     {
         id: 6,
@@ -126,7 +126,7 @@ const catsData = [
         ageMonths: 5,
         gender: 'Female',
         price: 550,
-        image: 'https://takehome.statledger.io/static/cat6.jpg',
+        image: 'https://takehome.statledger.io/api/images/cat6.jpg',
     }
 ];
 
