@@ -1,6 +1,6 @@
 services:
   employee:
-    build: "./takehome-api"
+    build: "."
     image: "takehome_api"
     container_name: "takehome_api"
     restart: always
