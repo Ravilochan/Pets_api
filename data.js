@@ -75,7 +75,7 @@ const dogsData = [
 
 const catsData = [
     {
-        id: 1,
+        id: 9,
         name: 'Whiskers',
         breed: 'Siamese',
         ageMonths: 8,
@@ -84,7 +84,7 @@ const catsData = [
         image: 'https://takehome.statledger.io/api/images/cat1.jpg',
     },
     {
-        id: 2,
+        id: 10,
         name: 'Luna',
         breed: 'Persian',
         ageMonths: 12,
@@ -93,7 +93,7 @@ const catsData = [
         image: 'https://takehome.statledger.io/api/images/cat2.jpg',
     },
     {
-        id: 3,
+        id: 11,
         name: 'Simba',
         breed: 'Maine Coon',
         ageMonths: 10,
@@ -102,7 +102,7 @@ const catsData = [
         image: 'https://takehome.statledger.io/api/images/cat3.jpg',
     },
     {
-        id: 4,
+        id: 12,
         name: 'Mittens',
         breed: 'Ragdoll',
         ageMonths: 7,
@@ -111,7 +111,7 @@ const catsData = [
         image: 'https://takehome.statledger.io/api/images/cat4.jpg',
     },
     {
-        id: 5,
+        id: 13,
         name: 'Leo',
         breed: 'Bengal',
         ageMonths: 14,
@@ -120,7 +120,7 @@ const catsData = [
         image: 'https://takehome.statledger.io/api/images/cat5.jpg',
     },
     {
-        id: 6,
+        id: 14,
         name: 'Oreo',
         breed: 'Domestic Shorthair',
         ageMonths: 5,
