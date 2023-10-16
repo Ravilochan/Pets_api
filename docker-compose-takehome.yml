@@ -1,0 +1,13 @@
+services:
+  employee:
+    build: "./takehome-api"
+    image: "takehome_api"
+    container_name: "takehome_api"
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.employee.entrypoints=websecure"
+      - "traefik.http.routers.employee.rule=Host(`takehome.statledger.io`) && PathPrefix(`/api/`)"
+      - "traefik.http.routers.employee.tls=true"
+      - "traefik.http.routers.employee.tls.certresolver=lets-encrypt"
