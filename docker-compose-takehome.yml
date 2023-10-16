@@ -11,3 +11,8 @@ services:
       - "traefik.http.routers.employee.rule=Host(`takehome.statledger.io`) && PathPrefix(`/api/`)"
       - "traefik.http.routers.employee.tls=true"
       - "traefik.http.routers.employee.tls.certresolver=lets-encrypt"
+
+networks:
+  default:
+    name: proxy
+    external: true
