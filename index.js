@@ -9,7 +9,7 @@ const { dogsData, catsData } = require("./data")
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
-app.use(helmet())
+// app.use(helmet())
 app.use(morgan('dev'))
 app.use("/api/images", express.static('public'))
 
