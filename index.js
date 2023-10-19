@@ -1,6 +1,5 @@
 const express = require('express')
 const cors = require('cors')
-const helmet = require('helmet')
 const morgan = require('morgan')
 const PORT = 9000
 const app = express()
@@ -9,7 +8,6 @@ const { dogsData, catsData } = require("./data")
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
-// app.use(helmet())
 app.use(morgan('dev'))
 app.use("/api/images", express.static('public'))
 
